@@ -1,0 +1,21 @@
+{
+  "name": "sf-get-token",
+  "version": "1.1.0",
+  "description": "Retrieve an access token for Salesforce so you can test the REST APIs with curl.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/divyavanmahajan/sf-get-token.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divya van Mahajan <dvm@vanmahajan.com>",
+  "bin": {
+    "sf-get-token": "./bin/sf-get-token"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "jsforce": "*"
+  }
+}

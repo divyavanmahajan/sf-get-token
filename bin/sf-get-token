@@ -1,0 +1,3 @@
+#!/usr/bin/env node
+var sf_get_token=require('../index.js');
+sf_get_token.login();
